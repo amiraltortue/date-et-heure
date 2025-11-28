@@ -1,0 +1,32 @@
+
+   
+body{
+    margin:0;
+    font-family:system-ui,Arial;   
+    background:#0b1220;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh}
+
+    .widget{
+        padding:18px;
+        border-radius:12px;
+        background:linear-gradient(135deg,#1f2937 0%,#111827 100%);
+        text-align:center;
+        min-width:220px
+    }
+
+    .time{
+        font-size:40px;
+        font-weight:600;
+        letter-spacing:1px
+    }
+
+    .date{
+        font-size:14px;
+        opacity:0.85;
+        margin-top:6px
+    }
+
