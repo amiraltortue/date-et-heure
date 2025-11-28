@@ -3,8 +3,8 @@
 body{
     margin:0;
     font-family:system-ui,Arial;   
-    background:#0b1220;
-    color:#fff;
+    background:#f2b0d9;
+    color:#b62488fe;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -12,20 +12,23 @@ body{
 
     .widget{
         padding:18px;
-        border-radius:12px;
-        background:linear-gradient(135deg,#1f2937 0%,#111827 100%);
+        border-radius:60px;
         text-align:center;
-        min-width:220px
+        min-width:220px;
+        /* Contour et léger fond pour entourer la date et l'heure */
+        background: rgba(255,255,255,0.06);
+        border: 10px solid rgba(255,255,255,0.18);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.12);
     }
 
     .time{
-        font-size:40px;
+        font-size:60px;
         font-weight:600;
         letter-spacing:1px
     }
 
     .date{
-        font-size:14px;
+        font-size:25px;
         opacity:0.85;
         margin-top:6px
     }
